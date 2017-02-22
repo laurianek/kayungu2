@@ -3,6 +3,7 @@ import { PortFolioData, PortFolioItem } from '../../services/portfolio-data';
 
 @Component({
   selector: 'portfolio',
+  styleUrls: ['./portfolio.component.css'],
   templateUrl: './portfolio.component.html'
 })
 export class PortFolioComponent {
@@ -10,9 +11,5 @@ export class PortFolioComponent {
 
   constructor(private portFolioData: PortFolioData) {
     this.data = portFolioData.data;
-  }
-
-  getLink(id) {
-    return `${id}`;
   }
 }

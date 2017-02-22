@@ -6,10 +6,10 @@
 
 <md-grid-list cols="3" >
 
-  <md-grid-tile *ngFor="let d of data" [routerLink]="d.id">
-    <img src="{{d.mainImage}}" alt="image of {{d.title}}">
+  <md-grid-tile *ngFor="let d of data" [routerLink]="d.id" class="{{ d.id }}">
+    <img class="portfolio-cover-image" src="{{ d.mainImage }}" alt="image of {{ d.title }}">
     <md-grid-tile-footer>
-      {{d.title}}
+      {{ d.title }}
     </md-grid-tile-footer>
   </md-grid-tile>
 
