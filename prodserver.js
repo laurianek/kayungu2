@@ -3,12 +3,12 @@ const compression = require('compression');
 const express = require('express');
 const path = require('path');
 
-const E2E_PORT = require('./constants').E2E_PORT;
-const HOST = require('./constants').HOST;
-const PROD_PORT = require('./constants').PROD_PORT;
+const constants = require('./constants');
+const E2E_PORT = constants.E2E_PORT;
+const HOST = constants.HOST;
+const PROD_PORT = constants.PROD_PORT;
 
 const app = express();
-const ROOT = path.join(path.resolve(__dirname, '..'));
 
 app.use(compression());
 app.use(express.static('dist/client'));
