@@ -31,6 +31,11 @@ declare var STORE_DEV_TOOLS: string;
 declare var System: SystemJS;
 declare var UNIVERSAL: boolean;
 
+declare module "*.json" {
+  const value: any;
+  export default value;
+}
+
 interface SystemJS {
   import: (path?: string) => Promise<any>;
 }

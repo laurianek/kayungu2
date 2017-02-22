@@ -1,0 +1,302 @@
+[
+  {
+    "order": 12,
+    "title": "Theory Test by miDrive",
+    "mainImage": "midrive2",
+    "otherImages": [],
+    "url": "",
+    "paragraphs": [
+      {
+        "text": "Beautiful app develop for miDrive for learners to drive. I have develop whole the front end for this and also made a bower ui-kit on bitbucket for the components on the app."
+      },
+      {
+        "frontend": true,
+        "list": [
+          "Cordova Framework",
+          "AngularJS",
+          "Grunt",
+          "Yeoman",
+          "Sass",
+          "Jasmine unit tests",
+          "Restful API call",
+          "HTML5",
+          "Twitter Bootstrap",
+          "Fully functional hybrid app"
+        ]
+      },
+      {
+        "frontend": false,
+        "list": [
+          "CodeIgniter & PHP5 (API)",
+          "Express & NodeJS (API)",
+          "Jenkins continuous integration server",
+          "Mongoose"
+        ]
+      }
+    ]
+  },
+  {
+    "order": 3,
+    "title": "Virgin Media",
+    "mainImage": "vm1-1.png",
+    "otherImages": ["vm1.png"],
+    "url": "www.virginmedia.com",
+    "paragraphs": [
+      {
+        "text": "Implemented the redesign of Virgin Media .com site, for both prospective and current customers. This particular brief included a unified header across all of Virgin Media subdomains and sites. The header was firstly designed in a design software suite and was not responsive via the width of the window. I have refactored the generated css into fully functioning responsive design."
+      },
+      {
+        "frontend": true,
+        "list": [
+          "JQuery",
+          "Sass",
+          "HTML5",
+          "Twitter Bootstrap",
+          "Subset of Modernize",
+          "IE8+ support"
+        ]
+      },
+      {
+        "frontend": false,
+        "list": [
+          "PHP5",
+          "PHPUnit tests",
+          "Model View Control framework",
+          "MySQL database"
+        ]
+      }
+    ]
+  },
+  {
+    "order": 4,
+    "title": "Virgin Media",
+    "mainImage": "vm2",
+    "otherImages": [],
+    "url": "anywhere.virginmedia.com",
+    "paragraphs": [
+      {
+        "text": "Virgin Media TV Anywhere is a massive site with a lot of feature packed into it. I was part of a team of 2 front-end developer to maintain and develop new features on this site, notably the Now & Next page which was given a revamp with angular, making use of it’s tempting and filtering features."
+      },
+      {
+        "frontend": true,
+        "lust": [
+          "JQuery",
+          "AngularJS",
+          "Sass",
+          "Jasmine unit tests with SinonJS stubbing system",
+          "Restful AJAX call",
+          "HTML5",
+          "IE8+ support"
+        ]
+      },
+      {
+        "frontend": false,
+        "list": [
+          "Symphony2 & PHP5",
+          "Gherkin BDD tests",
+          "PHPUnit tests",
+          "Model View Control framework",
+          "Jenkins continuous integration server",
+          "MySQL database",
+          "Doctrine"
+        ]
+      }
+    ]
+  },
+  {
+    "order": 5,
+    "title": "miDrive Concierge",
+    "mainImage": "midrive1",
+    "otherImages": [],
+    "url": "offers.midrive.com",
+    "paragraphs": [
+      {
+        "text": "This micro-site was a quick brief offers site to unable miDrive to give offer to their customers. Even though the site was constructed in less than a week, it still needed to be fully responsive as a 50% of their visitors were on mobile devices. I was the sole front-end worker for this site."
+      },
+      {
+        "frontend": true,
+        "list": [
+          "AngularJS",
+          "Grunt",
+          "Yeoman",
+          "Sass",
+          "Restful API call",
+          "HTML5",
+          "Twitter Bootstrap",
+          "Analytics tracking (Google Analytics, Mixpanel, etc)",
+          "Static site"
+        ]
+      }
+    ]
+  },
+  {
+    "order": 14,
+    "title": "Ohayou App - Personal Project",
+    "mainImage": "",
+    "otherImages": [],
+    "url": "",
+    "paragraphs": [
+      {
+        "text": "This is the first app of my learning Japanese series. It was fast short app develop to get my grips on Cordova / Angular."
+      },
+      {
+        "frontend": true,
+        "list": [
+          "Cordova Framework",
+          "AngularJS",
+          "Grunt",
+          "Yeoman",
+          "Sass",
+          "Karma test runner",
+          "Jasmine unit tests with SinonJS stubbing system",
+          "HTML5",
+          "Fully functional hybrid app for Android and IOS (may also be compiled for Windows)"
+        ]
+      }
+    ],
+    "liveDemo": "ohayou"
+  },
+  {
+    "order": 13,
+    "title": "Traveller's Japanese - Personal Project",
+    "mainImage": "",
+    "otherImages": [],
+    "url": "",
+    "paragraphs": [
+      {
+        "text": "This is the second app of my learning Japanese series. It is still development in progress and has not been release yet to the App stores. I used Cordova / Phonegap to deploy to the devices and I am using a angular on the front end. When completed the would be able to dynamically receive and store new content from the server without requiring an update."
+      },
+      {
+        "frontend": true,
+        "list": [
+          "Cordova Framework",
+          "AngularJS",
+          "Grunt",
+          "Yeoman",
+          "Sass",
+          "Karma test runner",
+          "Jasmine unit tests with SinonJS stubbing system",
+          "Restful API calls",
+          "JSONP processing",
+          "HTML5",
+          "Twitter Bootstrap",
+          "Release due soon on iTunes and Google Play"
+        ]
+      },
+      {
+        "frontend": false,
+        "text": "Backend used during development",
+        "list": [
+          "Express & NodeJS",
+          "Mongoose database"
+        ]
+      }
+    ]
+  },
+  {
+    "order": 6,
+    "title": "Constant Commerce",
+    "mainImage": "cc2.png",
+    "otherImages": ["cc"],
+    "url": "constant.co",
+    "paragraphs": [
+      {
+        "text": "Short one page site for Constant Commerce startup. The site needed to be fully responsive notably the hero of the site. The image could be responsive but the text on the image needed to still be readable on smaller devices and not to feel pixelated. I’ve developed a responsive font library which allows the scaling of text between break points making the hero readable whichever platform you were on."
+      },
+      {
+        "frontend": true,
+        "list": [
+          "JQuery",
+          "AngularJS",
+          "Sass",
+          "Jasmine unit tests with SinonJS stubbing system",
+          "HTML5",
+          "Twitter Bootstrap",
+          "IE9+ support"
+        ]
+      },
+      {
+        "frontend": false,
+        "list": [
+          "Symphony2 & PHP5",
+          "Gherkin BDD tests",
+          "PHPUnit tests",
+          "Model View Control framework",
+          "MySQL database"
+        ]
+      }
+    ]
+  },
+  {
+    "order": 1,
+    "title": "LoveKitting & LoveCrochet",
+    "mainImage": "",
+    "otherImages": [],
+    "url": "www.loveknitting.com",
+    "paragraphs": [
+      {
+        "text": "Worked"
+      },
+      {
+        "frontend": true,
+        "list": [
+          "Cordova Framework",
+          "AngularJS",
+          "Grunt",
+          "Yeoman",
+          "Sass",
+          "Jasmine unit tests",
+          "Restful API call",
+          "HTML5",
+          "Twitter Bootstrap",
+          "Fully functional hybrid app"
+        ]
+      },
+      {
+        "frontend": false,
+        "list": [
+          "CodeIgniter & PHP5 (API)",
+          "Express & NodeJS (API)",
+          "Jenkins continuous integration server",
+          "Mongoose"
+        ]
+      }
+    ]
+  },
+  {
+    "order": 2,
+    "title": "Lendable",
+    "mainImage": "",
+    "otherImages": [],
+    "url": "www.lendable.com",
+    "paragraphs": [
+      {
+        "text": "Worked"
+      },
+      {
+        "frontend": true,
+        "list": [
+          "Cordova Framework",
+          "AngularJS",
+          "Grunt",
+          "Yeoman",
+          "Sass",
+          "Jasmine unit tests",
+          "Restful API call",
+          "HTML5",
+          "Twitter Bootstrap",
+          "Fully functional hybrid app"
+        ]
+      },
+      {
+        "frontend": false,
+        "list": [
+          "CodeIgniter & PHP5 (API)",
+          "Express & NodeJS (API)",
+          "Jenkins continuous integration server",
+          "Mongoose"
+        ]
+      }
+    ]
+  }
+]
