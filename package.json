@@ -8,7 +8,7 @@
     "url": "git+https://github.com/qdouble/angular-webpack2-starter.git"
   },
   "scripts": {
-    "postinstall": "npm run sass && npm run build:dll",
+    "_postinstall": "npm run sass && npm run build:dll",
     "rimraf": "rimraf",
     "webdev": "webpack-dev-server",
     "webdev:hmr": "npm run webdev -- --inline --hot",
