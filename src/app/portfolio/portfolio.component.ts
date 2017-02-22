@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
-import { PortFolioData, PortFolioItem } from '../../services/portfolio-data';
+import { PortFolioItem } from './portfolio-item/portfolio-item.model';
+import { PortFolioData } from '../services/portfolio-service';
 
 @Component({
   selector: 'portfolio',
-  styleUrls: ['./portfolio.component.css'],
-  templateUrl: './portfolio.component.html'
+  styleUrls: ['portfolio.component.css'],
+  templateUrl: 'portfolio.component.html'
 })
 export class PortFolioComponent {
   data: PortFolioItem[];

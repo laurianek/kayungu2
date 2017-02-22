@@ -1,11 +1,12 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
-import { PortFolioData, PortFolioItem } from '../../../services/portfolio-data';
+import { PortFolioItem } from './portfolio-item.model';
+import { PortFolioData } from '../../services/portfolio-service';
 
 @Component({
   selector: 'portfolio-item',
-  styleUrls: ['./portfolio-item.component.css'],
-  templateUrl: './portfolio-item.component.html'
+  styleUrls: ['portfolio-item.component.css'],
+  templateUrl: 'portfolio-item.component.html'
 })
 export class PortFolioItemComponent implements OnInit{
   portfolio: PortFolioItem;
@@ -18,5 +19,6 @@ export class PortFolioItemComponent implements OnInit{
       .subscribe(porFolioItem => {
         this.portfolio = porFolioItem;
       });
+    document.body.scrollTop = 0;
   }
 }

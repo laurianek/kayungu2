@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import * as data from './portfolio-data.json';
+import { PortFolioItem, FrontEndList, BackEndList } from '../portfolio/portfolio-item/portfolio-item.model';
 
 @Injectable()
 export class PortFolioData {
@@ -22,7 +23,7 @@ export class PortFolioData {
       const {id, title, mainImage, otherImages, url} = item;
 
       return {id, title, url, paragraphs,
-        mainImage: `/assets/images/${mainImage}`,
+        mainImage: mainImage ? `/assets/images/${mainImage}` : undefined,
         otherImages: otherImages.map(i => `/assets/images/${i}`)
       }
     });
@@ -31,28 +32,4 @@ export class PortFolioData {
   getItem(id: string) {
     return this.data.filter(p => p.id === id)[0];
   }
-}
-
-export interface Paragraph {
-  title?: string;
-  text: string;
-}
-
-export class FrontEndList implements Paragraph {
-  title = 'Front-end';
-  constructor(public list: string[], public text: string = 'Technologies used') {}
-}
-
-export class BackEndList implements Paragraph {
-  title = 'Backend';
-  constructor(public list: string[], public text: string = 'Technologies used') {}
-}
-
-export interface PortFolioItem {
-  id: string;
-  title: string;
-  mainImage: string;
-  otherImages: string[];
-  url?: string;
-  paragraphs: Paragraph[]
 }

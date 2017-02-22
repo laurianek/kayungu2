@@ -329,5 +329,69 @@
         ]
       }
     ]
+  },
+  {
+    "order": 100,
+    "title": "TicTacToe Online Websocket Game",
+    "id": "tic-tac-toe",
+    "mainImage": "ttt1.png",
+    "otherImages": ["ttt2.png"],
+    "url": "https://laurianetictactoe.herokuapp.com/",
+    "paragraphs": [
+      {
+        "text": "Participated in a site competition in 2015 to make a small game of tic tac toep online playable with other people. I won that competition with my solution that can be played single player with robot or multiplayer with different windows. See the git repos: https://github.com/laurianek/xmas-challenge"
+      },
+      {
+        "frontend": true,
+        "list": [
+          "AngularJS",
+          "Twitter Bootstrap",
+          "ES6",
+          "Less",
+          "Gulp",
+          "Karma with Jasmine tests",
+          "HTML5"
+        ]
+      },
+      {
+        "frontend": false,
+        "list": [
+          "Express & NodeJS",
+          "WebSocket I/O"
+        ]
+      }
+    ]
+  },
+  {
+    "order": 999,
+    "title": "This Portfolio",
+    "id": "porfolio",
+    "mainImage": "",
+    "otherImages": [],
+    "url": "https://github.com/laurianek/kayungu2",
+    "paragraphs": [
+      {
+        "text": "This portfolio was updated using Angular2. See the git repos :)"
+      },
+      {
+        "frontend": true,
+        "list": [
+          "Angular2",
+          "Angular Material Design",
+          "Typescript",
+          "ES6",
+          "Sass",
+          "Gulp",
+          "Yarn package manager",
+          "HTML5"
+        ]
+      },
+      {
+        "frontend": false,
+        "list": [
+          "Express & NodeJS"
+        ]
+      }
+    ]
   }
 ]
