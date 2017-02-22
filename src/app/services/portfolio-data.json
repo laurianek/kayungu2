@@ -1,10 +1,10 @@
 [
   {
-    "order": 12,
+    "order": 3,
     "title": "Theory Test by miDrive",
     "id": "midrive-theory",
     "mainImage": "m3.png",
-    "otherImages": ["midrive2.png"],
+    "otherImages": ["mmall.png"],
     "url": "",
     "paragraphs": [
       {
@@ -37,7 +37,7 @@
     ]
   },
   {
-    "order": 3,
+    "order": 2,
     "title": "Virgin Media",
     "id": "virgin-media",
     "mainImage": "vm1-1.png",
@@ -45,7 +45,7 @@
     "url": "www.virginmedia.com",
     "paragraphs": [
       {
-        "text": "Implemented the redesign of Virgin Media .com site, for both prospective and current customers. This particular brief included a unified header across all of Virgin Media subdomains and sites. The header was firstly designed in a design software suite and was not responsive via the width of the window. I have refactored the generated css into fully functioning responsive design."
+        "text": "Implemented the redesign of Virgin Media.com site, for both prospective and current customers. This particular brief included a unified header across all of Virgin Media subdomains and sites. The header was firstly designed in a design software suite and was not responsive via the width of the window. I have refactored the generated css into fully functioning responsive design."
       },
       {
         "frontend": true,
@@ -74,7 +74,7 @@
     "title": "Virgin Media",
     "id": "tv-anywhere",
     "mainImage": "vm2-1.png",
-    "otherImages": ["vm2.png"],
+    "otherImages": ["vm2-content.png"],
     "url": "anywhere.virginmedia.com",
     "paragraphs": [
       {
@@ -107,11 +107,11 @@
     ]
   },
   {
-    "order": 5,
+    "order": 7,
     "title": "miDrive Concierge",
     "id": "midrive-concierge",
     "mainImage": "mi.png",
-    "otherImages": ["midrive1.png"],
+    "otherImages": ["midrive3.png"],
     "url": "offers.midrive.com",
     "paragraphs": [
       {
@@ -134,7 +134,7 @@
     ]
   },
   {
-    "order": 14,
+    "order": 99,
     "title": "Ohayou App - Personal Project",
     "id": "ohayou",
     "mainImage": "ohayou.png",
@@ -142,7 +142,7 @@
     "url": "",
     "paragraphs": [
       {
-        "text": "This is the first app of my learning Japanese series. It was fast short app develop to get my grips on Cordova / Angular."
+        "text": "This is the first Cordova app. It was fast short app develop to get my grips on Cordova / AngularJS 1."
       },
       {
         "frontend": true,
@@ -162,11 +162,11 @@
     "liveDemo": "ohayou"
   },
   {
-    "order": 13,
+    "order": 9,
     "title": "Traveller's Japanese - Personal Project",
     "id": "travellers-japanese",
-    "mainImage": "konbanwa.png",
-    "otherImages": [],
+    "mainImage": "tj2.png",
+    "otherImages": ["tj.png"],
     "url": "",
     "paragraphs": [
       {
@@ -200,7 +200,7 @@
     ]
   },
   {
-    "order": 6,
+    "order": 8,
     "title": "Constant Commerce",
     "id": "constant-commerce",
     "mainImage": "cc2.png",
@@ -236,101 +236,86 @@
   },
   {
     "order": 1,
-    "title": "LoveKitting & LoveCrochet",
+    "title": "LoveKnitting & LoveCrochet",
     "id": "lovecrafts",
-    "mainImage": "",
-    "otherImages": [],
+    "mainImage": "lovecrafts.png",
+    "otherImages": ["lovecrafts.png"],
     "url": "www.loveknitting.com",
     "paragraphs": [
       {
-        "text": "Worked"
+        "text": "Worked on a team with this innovative startup aiming to bridge the gap between art & crafts social media and where they shop for supplies. I was part of the community building site for the first half of my time there."
       },
       {
         "frontend": true,
         "list": [
-          "Cordova Framework",
-          "AngularJS",
-          "Grunt",
-          "Yeoman",
+          "BackboneJS",
+          "Prototype",
+          "In-house module loader solution",
+          "JQuery",
           "Sass",
-          "Jasmine unit tests",
-          "Restful API call",
           "HTML5",
-          "Twitter Bootstrap",
-          "Fully functional hybrid app"
+          "Subset of Modernize",
+          "IE8+ support"
         ]
       },
       {
         "frontend": false,
         "list": [
-          "CodeIgniter & PHP5 (API)",
-          "Express & NodeJS (API)",
-          "Jenkins continuous integration server",
-          "Mongoose"
+          "Magento e-commerce",
+          "Symfony2",
+          "Aws"
         ]
       }
     ]
   },
   {
-    "order": 2,
+    "order": 5,
     "title": "Lendable",
     "id": "lendable",
-    "mainImage": "",
-    "otherImages": [],
+    "mainImage": "lendable.png",
+    "otherImages": ["lendable.png"],
     "url": "www.lendable.com",
     "paragraphs": [
       {
-        "text": "Worked"
+        "text": "Disrupting fintech startup in the peer-to-peer loan industry. I worked along side my team to improve the investors portfolio report using D3 visualisation library."
       },
       {
         "frontend": true,
         "list": [
-          "Cordova Framework",
-          "AngularJS",
-          "Grunt",
-          "Yeoman",
+          "Angular2",
+          "D3",
           "Sass",
-          "Jasmine unit tests",
+          "Jest unit tests",
           "Restful API call",
           "HTML5",
-          "Twitter Bootstrap",
-          "Fully functional hybrid app"
-        ]
-      },
-      {
-        "frontend": false,
-        "list": [
-          "CodeIgniter & PHP5 (API)",
-          "Express & NodeJS (API)",
-          "Jenkins continuous integration server",
-          "Mongoose"
+          "Twitter Bootstrap"
         ]
       }
     ]
   },
   {
     "order": 6,
-    "title": "hairbok",
+    "title": "hairbook",
     "id": "hairbook",
-    "mainImage": "",
-    "otherImages": [],
+    "mainImage": "hb1.png",
+    "otherImages": ["hb.png"],
     "url": "",
     "paragraphs": [
       {
-        "text": "Worked"
+        "text": ""
       },
       {
         "frontend": true,
         "list": [
+          "ReactJS",
+          "Redux",
+          "RxJs",
           "Cordova Framework",
-          "AngularJS",
-          "Grunt",
-          "Yeoman",
+          "Gulp",
           "Sass",
-          "Jasmine unit tests",
+          "Jest test framework",
           "Restful API call",
           "HTML5",
-          "Twitter Bootstrap",
           "Fully functional hybrid app"
         ]
       },

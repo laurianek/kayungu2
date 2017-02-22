@@ -32,4 +32,8 @@ export class AppComponent {
       console.log('Deactivate Event', event);
     }
   }
+
+  year() {
+    return (new Date()).getFullYear();
+  }
 }

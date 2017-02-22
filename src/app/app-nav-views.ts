@@ -4,9 +4,9 @@ export const views: Object[] = [
     icon: 'home',
     link: ['portfolio']
   },
-  {
-    name: 'About',
-    icon: 'avatar',
-    link: ['about']
-  }
+  // {
+  //   name: 'About',
+  //   icon: 'avatar',
+  //   link: ['about']
+  // }
 ];

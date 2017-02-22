@@ -21,8 +21,9 @@ export class PortFolioData {
       });
       const {id, title, mainImage, otherImages, url} = item;
 
-      return {id, title, otherImages, url, paragraphs,
-        mainImage: `/assets/images/${mainImage}`
+      return {id, title, url, paragraphs,
+        mainImage: `/assets/images/${mainImage}`,
+        otherImages: otherImages.map(i => `/assets/images/${i}`)
       }
     });
   }
