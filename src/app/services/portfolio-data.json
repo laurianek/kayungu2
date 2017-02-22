@@ -2,8 +2,9 @@
   {
     "order": 12,
     "title": "Theory Test by miDrive",
-    "mainImage": "midrive2",
-    "otherImages": [],
+    "id": "midrive-theory",
+    "mainImage": "m3.png",
+    "otherImages": ["midrive2.png"],
     "url": "",
     "paragraphs": [
       {
@@ -38,6 +39,7 @@
   {
     "order": 3,
     "title": "Virgin Media",
+    "id": "virgin-media",
     "mainImage": "vm1-1.png",
     "otherImages": ["vm1.png"],
     "url": "www.virginmedia.com",
@@ -70,8 +72,9 @@
   {
     "order": 4,
     "title": "Virgin Media",
-    "mainImage": "vm2",
-    "otherImages": [],
+    "id": "tv-anywhere",
+    "mainImage": "vm2-1.png",
+    "otherImages": ["vm2.png"],
     "url": "anywhere.virginmedia.com",
     "paragraphs": [
       {
@@ -79,7 +82,7 @@
       },
       {
         "frontend": true,
-        "lust": [
+        "list": [
           "JQuery",
           "AngularJS",
           "Sass",
@@ -106,8 +109,9 @@
   {
     "order": 5,
     "title": "miDrive Concierge",
-    "mainImage": "midrive1",
-    "otherImages": [],
+    "id": "midrive-concierge",
+    "mainImage": "mi.png",
+    "otherImages": ["midrive1.png"],
     "url": "offers.midrive.com",
     "paragraphs": [
       {
@@ -132,7 +136,8 @@
   {
     "order": 14,
     "title": "Ohayou App - Personal Project",
-    "mainImage": "",
+    "id": "ohayou",
+    "mainImage": "ohayou.png",
     "otherImages": [],
     "url": "",
     "paragraphs": [
@@ -159,7 +164,8 @@
   {
     "order": 13,
     "title": "Traveller's Japanese - Personal Project",
-    "mainImage": "",
+    "id": "travellers-japanese",
+    "mainImage": "konbanwa.png",
     "otherImages": [],
     "url": "",
     "paragraphs": [
@@ -196,8 +202,9 @@
   {
     "order": 6,
     "title": "Constant Commerce",
+    "id": "constant-commerce",
     "mainImage": "cc2.png",
-    "otherImages": ["cc"],
+    "otherImages": ["cc.png"],
     "url": "constant.co",
     "paragraphs": [
       {
@@ -230,6 +237,7 @@
   {
     "order": 1,
     "title": "LoveKitting & LoveCrochet",
+    "id": "lovecrafts",
     "mainImage": "",
     "otherImages": [],
     "url": "www.loveknitting.com",
@@ -266,9 +274,47 @@
   {
     "order": 2,
     "title": "Lendable",
+    "id": "lendable",
     "mainImage": "",
     "otherImages": [],
     "url": "www.lendable.com",
+    "paragraphs": [
+      {
+        "text": "Worked"
+      },
+      {
+        "frontend": true,
+        "list": [
+          "Cordova Framework",
+          "AngularJS",
+          "Grunt",
+          "Yeoman",
+          "Sass",
+          "Jasmine unit tests",
+          "Restful API call",
+          "HTML5",
+          "Twitter Bootstrap",
+          "Fully functional hybrid app"
+        ]
+      },
+      {
+        "frontend": false,
+        "list": [
+          "CodeIgniter & PHP5 (API)",
+          "Express & NodeJS (API)",
+          "Jenkins continuous integration server",
+          "Mongoose"
+        ]
+      }
+    ]
+  },
+  {
+    "order": 6,
+    "title": "hairbok",
+    "id": "hairbook",
+    "mainImage": "",
+    "otherImages": [],
+    "url": "",
     "paragraphs": [
       {
         "text": "Worked"

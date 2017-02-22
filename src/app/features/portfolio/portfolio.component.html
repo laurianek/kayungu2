@@ -4,13 +4,13 @@
   </h3>
 </header>
 
-<md-grid-list cols="3">
-  <md-grid-tile>
-    <img src="/assets/images/cc.png" alt="">
+<md-grid-list cols="3" >
+
+  <md-grid-tile *ngFor="let d of data" [routerLink]="d.id">
+    <img src="{{d.mainImage}}" alt="image of {{d.title}}">
     <md-grid-tile-footer>
-      A portfolio item
+      {{d.title}}
     </md-grid-tile-footer>
   </md-grid-tile>
-  <md-grid-tile>1</md-grid-tile>
-  <md-grid-tile>1</md-grid-tile>
+
 </md-grid-list>

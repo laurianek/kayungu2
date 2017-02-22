@@ -1,0 +1,16 @@
+<header>
+  <h3>
+    {{ portfolio.title }}
+  </h3>
+</header>
+
+<img src="{{ img }}" alt="portfolio image - {{ portfolio.title }}" *ngFor="let img of portfolio.otherImages">
+
+<section *ngFor="let p of portfolio.paragraphs">
+  <h4 *ngIf="p.title">{{ p.title }}</h4>
+  <p>{{ p.text }}</p>
+  <ul *ngIf="p.list" >
+    <li *ngFor="let item of p.list"> {{ item }} </li>
+  </ul>
+</section>
+

@@ -32,7 +32,7 @@ declare var System: SystemJS;
 declare var UNIVERSAL: boolean;
 
 declare module "*.json" {
-  const value: any;
+  const value: any | Array<any>;
   export default value;
 }
 
