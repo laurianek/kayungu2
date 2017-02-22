@@ -6,7 +6,9 @@
     </h3>
   </header>
 
-  <img src="{{ img }}" alt="portfolio image - {{ portfolio.title }}" *ngFor="let img of portfolio.otherImages">
+  <div class="image-container" md-card-image>
+    <img class="portfolio-cover-image" src="{{ i }}" alt="portfolio image - {{ portfolio.title }}" *ngFor="let i of portfolio.otherImages">
+  </div>
 
   <section *ngFor="let p of portfolio.paragraphs">
     <h4 *ngIf="p.title">{{ p.title }}</h4>

@@ -1,6 +1,6 @@
 export const views: Object[] = [
   {
-    name: 'PortFolio',
+    name: 'Portfolio',
     icon: 'home',
     link: ['portfolio']
   },

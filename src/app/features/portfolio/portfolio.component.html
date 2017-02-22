@@ -6,10 +6,12 @@
 
 <md-grid-list cols="3" >
 
-  <md-grid-tile *ngFor="let d of data" [routerLink]="d.id" class="{{ d.id }}">
+  <md-grid-tile *ngFor="let d of data, let even = even, let odd = odd"
+                [routerLink]="d.id"
+                class="portfolio-image-container {{ d.id }}" [ngClass]="{'even': even, 'odd': odd}">
     <img class="portfolio-cover-image" src="{{ d.mainImage }}" alt="image of {{ d.title }}">
     <md-grid-tile-footer>
-      {{ d.title }}
+      {{ d.title }} {{ even }}
     </md-grid-tile-footer>
   </md-grid-tile>
 

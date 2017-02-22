@@ -1,19 +1,28 @@
-.portfolio-cover-image {
-  width: 100%;
-}
+@import '@angular/material/core/theming/theming';
 
 .midrive-theory,
-.midrive-concierge {
-  background-color: lighten(#54c6ea, 20%);
-}
+.midrive-concierge {}
 
 .virgin-media,
-.tv-anywhere{
-  background-color: lighten(red, 20%);
-}
+.tv-anywhere{}
 
 .ohayou{}
 .travellers-japanese{}
 .constant-commerce{}
 .lendable{}
 .hairbook{}
+
+.midrive-theory,
+.ohayou {
+  .portfolio-cover-image{
+    width: auto;
+    height: 100%;
+  }
+}
+
+.portfolio-image-container.even {
+  background-color: md-color($md-deep-purple, 100);
+}
+.portfolio-image-container.odd {
+  background-color: md-color($md-deep-purple, 50);
+}
