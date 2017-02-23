@@ -8,7 +8,7 @@
     "url": "",
     "paragraphs": [
       {
-        "text": "Beautiful app develop for miDrive for learners to drive. I have develop whole the front end for this and also made a bower ui-kit on bitbucket for the components on the app."
+        "text": "Beautiful app develop for miDrive for learners to drive. I have develop whole the front end for this and also made a bower ui-kit on bitbucket using similar style as Bootstrap UI for the components on the app."
       },
       {
         "frontend": true,
@@ -78,7 +78,7 @@
     "url": "anywhere.virginmedia.com",
     "paragraphs": [
       {
-        "text": "Virgin Media TV Anywhere is a massive site with a lot of feature packed into it. I was part of a team of 2 front-end developer to maintain and develop new features on this site, notably the Now & Next page which was given a revamp with angular, making use of it’s tempting and filtering features."
+        "text": "Virgin Media TV Anywhere is a massive site with a lot of feature packed into it. I was part of a team of 2 front-end developer to maintain and develop new features on this site, notably the Now & Next page which was given a revamp with angular."
       },
       {
         "frontend": true,
@@ -135,13 +135,15 @@
   },
   {
     "order": 99,
-    "title": "Ohayou App - Personal Project",
+    "hide": true,
+    "title": "Ohayou App",
     "id": "ohayou",
     "mainImage": "ohayou.png",
     "otherImages": [],
     "url": "",
     "paragraphs": [
       {
+        "title": "Personal Project",
         "text": "This is the first Cordova app. It was fast short app develop to get my grips on Cordova / AngularJS 1."
       },
       {
@@ -163,13 +165,14 @@
   },
   {
     "order": 9,
-    "title": "Traveller's Japanese - Personal Project",
+    "title": "Traveller's Japanese",
     "id": "travellers-japanese",
     "mainImage": "tj2.png",
     "otherImages": ["tj.png"],
-    "url": "",
+    "url": "http://itunes.com/apps/http://itunes.com/apps/TravellersJapanese",
     "paragraphs": [
       {
+        "title": "Personal Project",
         "text": "This is the second app of my learning Japanese series. It is still development in progress and has not been release yet to the App stores. I used Cordova / Phonegap to deploy to the devices and I am using a angular on the front end. When completed the would be able to dynamically receive and store new content from the server without requiring an update."
       },
       {
@@ -186,7 +189,7 @@
           "JSONP processing",
           "HTML5",
           "Twitter Bootstrap",
-          "Release due soon on iTunes and Google Play"
+          "Release on iTunes and Google Play"
         ]
       },
       {
@@ -200,7 +203,7 @@
     ]
   },
   {
-    "order": 8,
+    "order": 10,
     "title": "Constant Commerce",
     "id": "constant-commerce",
     "mainImage": "cc2.png",
@@ -243,7 +246,10 @@
     "url": "www.loveknitting.com",
     "paragraphs": [
       {
-        "text": "Worked on a team with this innovative startup aiming to bridge the gap between art & crafts social media and where they shop for supplies. I was part of the community building site for the first half of my time there."
+        "text": "Worked on a team with this innovative startup aiming to bridge the gap between art & crafts social media and where they shop for supplies. I worked on both the social media and e-commerce part of the site. The social media aspect uses Symfony2 and backbone.js. The ecommerce uses Magento e-commerce platform."
+      },
+      {
+        "text": "I helped migrate the ecommerce platform of the latest stable version. Worked with kanban agile methodology, implementing user stories. Shown flexibility taking up different responsibilities, like helping with backend work, quality assurance, and writing automated tests. Helped with the planning process and priority of tickets."
       },
       {
         "frontend": true,
@@ -269,7 +275,7 @@
     ]
   },
   {
-    "order": 5,
+    "order": 8,
     "title": "Lendable",
     "id": "lendable",
     "mainImage": "lendable.png",
@@ -277,7 +283,7 @@
     "url": "www.lendable.com",
     "paragraphs": [
       {
-        "text": "Disrupting fintech startup in the peer-to-peer loan industry. I worked along side my team to improve the investors portfolio report using D3 visualisation library."
+        "text": "Disrupting fintech startup in the peer-to-peer loan industry. Worked on changing the build environment from a Symfony3 / Assetic bundling stack to a full standalone frontend using NPM and Gulp task runner. Used D3 library for making visual financial report for the Lendable peer-to-peer investors. Fully responsible for the frontend engineering design stack"
       },
       {
         "frontend": true,
@@ -299,10 +305,11 @@
     "id": "hairbook",
     "mainImage": "hb1.png",
     "otherImages": ["hb.png"],
-    "url": "",
+    "url": "https://play.google.com/store/apps/details?id=com.easywaytonaturalhair.hairbook",
     "paragraphs": [
       {
-        "text": ""
+        "title": "Personal Project",
+        "text": "Developed both the frontend and the backend for project, the hair & beauty app ‘hairbook’. It is live with over 8000 downloads without any marketing. Used Cordova hybrid mobile app framework with ReactJS on the client side, and NodeJS + ExpressJS on the server side. I have plans to convert this app to a full React Native app in the future. It has the ability to push hotfixes for bugs and to sync user data from the backend. "
       },
       {
         "frontend": true,
@@ -322,24 +329,27 @@
       {
         "frontend": false,
         "list": [
-          "CodeIgniter & PHP5 (API)",
-          "Express & NodeJS (API)",
-          "Jenkins continuous integration server",
-          "Mongoose"
+          "NodeJS",
+          "Express",
+          "Postgres"
         ]
       }
     ]
   },
   {
-    "order": 100,
-    "title": "TicTacToe Online Websocket Game",
+    "order": 5,
+    "title": "TicTacToe - Competition Winner",
     "id": "tic-tac-toe",
     "mainImage": "ttt1.png",
     "otherImages": ["ttt2.png"],
     "url": "https://laurianetictactoe.herokuapp.com/",
     "paragraphs": [
       {
-        "text": "Participated in a site competition in 2015 to make a small game of tic tac toep online playable with other people. I won that competition with my solution that can be played single player with robot or multiplayer with different windows. See the git repos: https://github.com/laurianek/xmas-challenge"
+        "title": "Online Websocket Game",
+        "text": "Participated in a site competition in 2015 to make a small game of tic tac toe online playable with other people. My solution included the websocket api which player across the globe can play together, a bot that you can play with for solo mode, well though UI, and tests with coverage"
+      },
+      {
+        "text": "See the git repository: https://github.com/laurianek/xmas-challenge"
       },
       {
         "frontend": true,
@@ -366,7 +376,7 @@
     "order": 999,
     "title": "This Portfolio",
     "id": "porfolio",
-    "mainImage": "",
+    "mainImage": "github-octocat.png",
     "otherImages": [],
     "url": "https://github.com/laurianek/kayungu2",
     "paragraphs": [

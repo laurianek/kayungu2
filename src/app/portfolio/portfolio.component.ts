@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { PortFolioItem } from './portfolio-item/portfolio-item.model';
 import { PortFolioData } from '../services/portfolio-service';
+import { MOBILE } from '../services/constants';
 
 @Component({
   selector: 'portfolio',
@@ -12,5 +13,12 @@ export class PortFolioComponent {
 
   constructor(private portFolioData: PortFolioData) {
     this.data = portFolioData.data;
+  }
+
+  getNumColumn() {
+    if (MOBILE) {
+      return 2;
+    }
+    return 3;
   }
 }

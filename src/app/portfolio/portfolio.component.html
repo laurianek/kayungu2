@@ -4,7 +4,7 @@
   </h3>
 </header>
 
-<md-grid-list cols="3" >
+<md-grid-list cols="{{ getNumColumn() }}">
 
   <md-grid-tile *ngFor="let d of data, let even = even, let odd = odd"
                 [routerLink]="d.id"

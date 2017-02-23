@@ -12,6 +12,15 @@
 .toolbar-spacer {
   flex: 1;
 }
+
+.toolbar-header-btn-row {
+  text-align: right;
+
+  [md-button] {
+    min-width: 0;
+  }
+}
+
 footer {
   padding: 20px;
   text-align: center;

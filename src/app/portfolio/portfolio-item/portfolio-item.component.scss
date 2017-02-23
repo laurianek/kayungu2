@@ -6,4 +6,10 @@
 
 .site-link {
   margin-bottom: 1em;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+section {
+  margin-bottom: 1em;
 }
